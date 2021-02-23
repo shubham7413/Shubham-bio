@@ -32,7 +32,6 @@ nav ul li{
 nav ul li:hover{
     background-color: white;
     border-bottom: 0.2em solid #f09116e3;
-    transition: width 2s linear 1s;
     text-shadow: 0.03em 0.03em #053d5dbe;
 }
 li{
@@ -42,6 +41,23 @@ li{
 nav a{
     display:inline-block;
 }
+img.enlarge{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+img.gallery{
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    height: 10%; 
+}
+
+img.gallery:hover{
+    opacity: 0.8;
+}
+
 a:link,a:visited{
     color: #167de4;
     text-decoration: none;
@@ -56,12 +72,7 @@ a:hover{
     color: white;
     background-color:#167de4;
 }
-.gallery{
-    position: relative;
-    display: inline-block;
-    width: 15%;
-    opacity: 0.8;
-}
+
 
 div .breif{
     position: fixed;
