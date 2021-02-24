@@ -47,17 +47,19 @@ img.enlarge{
     min-width: 160px;
     z-index: 1;
 }
+.dropdown{
+    display: block;
+    width: 100%;
+}
 img.gallery{
-    position: relative;
-    display: inline-block;
     width: 15%;
-    height: 10%; 
+    height: 100%;
+    
 }
 
 img.gallery:hover{
     opacity: 0.8;
 }
-
 a:link,a:visited{
     color: #167de4;
     text-decoration: none;
@@ -212,9 +214,13 @@ span img.end{
         padding-left: 0;
         margin-left: 5vw;
     }
+    article ul{
+        font-size: 2.8vw;
+    }
     div .breif{
         position: static;
         display: inline-block;
+        
         width:100%;
         font-size: 2.1vw;
         font-weight: bold;
@@ -225,11 +231,13 @@ span img.end{
         
         float: left;
         margin-top: 1vw;
+       
         width: 40%;
         clip-path: circle(45.7% at 50% 50%);
         }
-    div .breif_words{
-        margin-right: 5vw;
+    div.breif_words{
+        margin-left: 42vw;
+        margin-right: 0;
     }
     main{
         position: static;
