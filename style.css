@@ -153,6 +153,9 @@ i.fa-instagram:hover{
 i.fa-twitter:hover{
     color: #1294e6;
 }
+.social_links{
+    text-decoration: none;
+}
 /*Styling form */
 input[type="text"],
 input[type="email"],
