@@ -6,6 +6,8 @@ body{
     font-family: Raleway,Verdana, Geneva, Tahoma, sans-serif;
     line-height: 2.4;
     margin: 2% 5%;
+    color: white;
+    background-color: black;
 }
 nav{
     position: fixed;
