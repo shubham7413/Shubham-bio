@@ -15,7 +15,7 @@ nav{
     left: 0;
     margin-left: 0;
     font-size: 2vw;
-    background-color: #eee; 
+    background-color: rgb(47, 47, 47); 
     width: 100%;
     box-sizing: 100%;
     z-index: 2;
@@ -32,12 +32,12 @@ nav ul li{
     padding: 0% 5%;
 }
 nav ul li:hover{
-    background-color: white;
+    background-color: black;
     border-bottom: 0.2em solid #f09116e3;
     text-shadow: 0.03em 0.03em #053d5dbe;
 }
 li{
-    list-style-image: url(bullet.png) ;
+    list-style-type: disk ;
     
 }
 nav a{
@@ -232,7 +232,7 @@ aside h3{
 /*Styling form */
 span img.end{
     width: 30%;
-    display: block;
+    display: none;
     margin-right: auto;
     margin-left: auto;
 }
@@ -258,6 +258,12 @@ span img.end{
     }
     img.light_and_dark{
         width: 3vw;
+    }
+    span img.end{
+        width: 30%;
+        display: none;
+        margin-right: auto;
+        margin-left: auto;
     }
     div .breif{
         position: static;
