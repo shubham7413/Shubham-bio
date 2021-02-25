@@ -317,19 +317,21 @@ span img.end{
         height: 80%;
         width:100%;   
         }
-    footer{
-        height: 4vw;
-        margin-left: 0;
-        padding-top:1vh ;
-        padding-bottom: 1vh;
-    }
-    footer i{
-        padding-left: 3vw;
-    }
-    i{
-        font-size: 2vh;
-    }
-    footer .center{
-        margin-left: 10%;
-    }
-    }
+        footer{
+            height: 4vw;
+            margin-left: 0;
+            padding-left: 3vw;
+            padding-top:1vh ;
+            padding-bottom: 3vh;
+        }
+        footer i{
+            padding-left: 2vw;
+        }
+        i{
+            font-size: 1.5em;
+            
+        }
+        footer div.center{
+            margin: 0 auto;
+        }
+        }

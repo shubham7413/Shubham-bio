@@ -325,16 +325,18 @@ span img.end{
     footer{
         height: 4vw;
         margin-left: 0;
+        padding-left: 3vw;
         padding-top:1vh ;
-        padding-bottom: 1vh;
+        padding-bottom: 3vh;
     }
     footer i{
-        padding-left: 3vw;
+        padding-left: 2vw;
     }
     i{
-        font-size: 2vh;
+        font-size: 1.5em;
+        
     }
-    footer .center{
-        margin-left: 10%;
+    footer div.center{
+        margin: 0 auto;
     }
     }
