@@ -327,7 +327,7 @@ span img.end{
             margin-left: 0;
             padding-left: 3vw;
             padding-top:1vh ;
-            padding-bottom: 13px;
+            padding-bottom: 2.5vh;
         }
         footer i{
             padding-left: 2vw;
@@ -338,5 +338,5 @@ span img.end{
         }
         footer div.center{
             margin-left: 6vw;
-            margin-bottom: auto;
+            margin-bottom: 1em;
         }}
