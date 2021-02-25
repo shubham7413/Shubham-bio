@@ -93,6 +93,7 @@ div .breif{
 }
 div.light_dark{
     position: fixed;
+    display: none;
     z-index: 2;
     top: 1vh;
     left: 1vw;
@@ -100,6 +101,18 @@ div.light_dark{
     height: auto;
 }
 img.light_and_dark{
+    display: none;
+    width: 3vw;
+}
+div.light_dark1{
+    position: fixed;
+    z-index: 2;
+    top: 1vh;
+    left: 1vw;
+    width: 3vw;
+    height: auto;
+}
+img.light_and_dark1{
     width: 3vw;
 }
 main{
@@ -247,6 +260,7 @@ span img.end{
         font-size: 2.8vw;
     }
     div.light_dark{
+        display: none;
         position: fixed;
         z-index: 2;
         top: 0.5vh;
@@ -255,6 +269,18 @@ span img.end{
         height: auto;
     }
     img.light_and_dark{
+        display: none;
+        width: 3vw;
+    }
+    div.light_dark1{
+        position: fixed;
+        z-index: 2;
+        top: 0.5vh;
+        left: 1vw;
+        width: 3vw;
+        height: auto;
+    }
+    img.light_and_dark1{
         width: 3vw;
     }
     div .breif{

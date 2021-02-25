@@ -104,6 +104,19 @@ div.light_dark{
 img.light_and_dark{
     width: 3vw;
 }
+div.light_dark1{
+    display: none;
+    position: fixed;
+    z-index: 2;
+    top: 0.5vh;
+    left: 1vw;
+    width: 3vw;
+    height: auto;
+}
+img.light_and_dark1{
+    display: none;
+    width: 3vw;
+}
 main{
     margin-top: 2.5vw;
     font-size: 1.2vw;
