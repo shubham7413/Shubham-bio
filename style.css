@@ -178,19 +178,19 @@ i.fa-twitter{
     color: #1294e6;
 }
 i.fa-envelope:hover{
-    color: #fa0025;
+    color: #8d0015;
 }
 i.fa-github:hover{
-    color: #204870;
+    color: #123252;
 }
 i.fa-facebook:hover{
     color:  #074ce0;
 }
 i.fa-instagram:hover{
-    color: #e6138a;
+    color: #8d0050;
 }
 i.fa-twitter:hover{
-    color: #0074bd;
+    color: #005183;
 }
 .social_links{
     text-decoration: none;
