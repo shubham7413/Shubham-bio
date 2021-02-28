@@ -261,6 +261,9 @@ span img.end{
         padding-left: 0;
         margin-left: 5vw;
     }
+    img.profile{
+        margin-top: 30px;
+    }
     article ul{
         font-size: 2.8vw;
     }
@@ -301,11 +304,9 @@ span img.end{
     div .breif img{
         
         float: left;
-        margin-top: 1vw;
-       
         width: 40%;
         clip-path: circle(45.7% at 50% 50%);
-        }
+    }
     div.breif_words{
         margin-left: 42vw;
         margin-right: 0;
@@ -327,21 +328,21 @@ span img.end{
         height: 80%;
         width:100%;   
         }
-        footer{
-            height: 4vw;
-            margin-left: 0;
-            padding-left: 3vw;
-            padding-top:1vh ;
-            padding-bottom: 2.5vh;
-        }
-        footer i{
-            padding-left: 2vw;
-        }
-        i{
-            font-size: 2.5em;
-            
-        }
-        footer div.center{
-            margin-left: 6vw;
-            margin-bottom: 1em;
-        }}
+    footer{
+        height: 4vw;
+        margin-left: 0;
+        padding-left: 3vw;
+        padding-top:1vh ;
+        padding-bottom: 2.5vh;
+    }
+    footer i{
+        padding-left: 2vw;
+    }
+    i{
+        font-size: 2.5em;
+        
+    }
+    footer div.center{
+        margin-left: 6vw;
+        margin-bottom: 1em;
+    }}
