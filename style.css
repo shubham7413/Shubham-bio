@@ -22,6 +22,7 @@ nav{
 }
 h3{
     border-left: 0.52vw solid #076dd3;
+    border-radius: 0.5vw;
     background-color: #94c5f6;
     padding-left: 0.5vw;
 }
