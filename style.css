@@ -20,6 +20,11 @@ nav{
     box-shadow: 0px 15px 10px -15px #111; 
     
 }
+h3{
+    border-left: 0.52vw solid #076dd3;
+    background-color: #94c5f6;
+    padding-left: 0.5vw;
+}
 ul{
     margin: 0%;
 }
@@ -266,6 +271,10 @@ span img.end{
     }
     article ul{
         font-size: 2.8vw;
+    }
+    h3{
+        border-left: 0.8vw solid #076dd3;
+        padding-left: 0.8vw;
     }
     div.light_dark{
         display: none;
