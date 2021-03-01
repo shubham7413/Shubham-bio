@@ -245,6 +245,9 @@ input[type="submit"]{
     
 }
 input[type="submit"]:hover{
+    transform: scale(1.03,1.03);
+}
+input[type="submit"]:hover{
     background-color: #0d527a;
     cursor: pointer;
 }
