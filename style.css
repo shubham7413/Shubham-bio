@@ -215,9 +215,13 @@ input[type="email"],
 input[type="submit"]{
     width: 100%;
     padding: 1vw;
-    background-color: #eee;
-    border: 1px solid #aaa;
+    background-color: white;
+    border: none;
+    border-bottom: 3px solid #4196ec;
     border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-left: 0;
 }
 textarea{
     resize: none;
@@ -236,16 +240,20 @@ textarea:focus{
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="submit"]:focus{
-    border: 1px solid #aaa;
-    border-radius: 10px;
-    background-color: #bbb;
+    outline: none;
+    border-bottom: 3px solid #003a74;
+    background-color: white;
 
 }
 input[type="submit"]{
     background-color: #167de4;
+    border-radius: 10px;
     color: white;
     border: 2px solid #0d527a;
     
+}
+::placeholder{
+    font-weight: bold;
 }
 input[type="submit"]:hover{
     transform: scale(1.03,1.03);
